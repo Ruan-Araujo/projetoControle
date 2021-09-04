@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
 
+    height: 100vh;
 } 
 
 .container{
@@ -62,7 +63,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0px;
+    margin: 25px 0px;
 }
 
 .column1{
@@ -158,6 +159,6 @@ h3{
 
 .social img{
     height: 20px;
-    margin: 20px;
+    margin-right: 20px;
     cursor: pointer;
 }
