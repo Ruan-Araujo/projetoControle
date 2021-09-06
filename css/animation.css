@@ -1,0 +1,33 @@
+#menu-list{
+    transition: all .5s ease-in-out;
+}
+
+.menu-icon{
+    cursor: pointer;
+}
+
+.buy{
+    transition: all .5s ease-in-out;
+}
+
+.buy:hover{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy:hover img{
+    display: block;
+}
+
+.controller{
+    animation: controller-move 2s infinite alternate ease-in-out;
+}
+
+@keyframes controller-move {
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+    }
+}

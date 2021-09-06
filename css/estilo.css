@@ -117,6 +117,11 @@ h3{
     z-index: 2;
 }
 
+.buy img {
+    width: 30px;
+    display: none;
+}
+
 .add{
     z-index: 2;
     border: none;
